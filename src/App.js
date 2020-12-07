@@ -1,22 +1,21 @@
 //import logo from './logo.svg';
-import img from './minh.jpg';
+import img from './minh.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={img} className="App-logo" alt="logo" />
+        <img src={img} alt="logo" />
         <p>
-          Hi there! You are so cute!
+          Hello it's Minh.
         </p>
         <a
-          className="Contact Me"
           href="https://www.facebook.com/leminh.tran.752/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          My Facebook
         </a>
       </header>
     </div>
